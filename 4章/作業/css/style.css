@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+  /* ページ全体に反映したいCSSはbodyに指定する */
+
+  /* 背景色を変更する */
+  background-color: #bbf1ef;
+
+  /* フォントを変更する */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  /* フォントのサイズを変更する */
+  font-size: 18px;
+}
+
+h1 {
+
+  /* インラインブロックに変更 */
+  display: inline-block;
+
+  font-size: 18px;
+
+  /* h1要素に枠線をつける （４辺を個別に指定することもできる）　ソリッド*/
+  border: 3px solid #ffffff;
+  /* ショートバンド：　「3px solid #ffffff」いくつかのCSSプロパティではこの書き方が出来る */
+
+
+  /* 枠線の角をまるくする 　ラディウス*/
+  border-radius: 20px;
+}
