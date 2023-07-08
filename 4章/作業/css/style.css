@@ -15,16 +15,62 @@ body {
 
 h1 {
 
-  /* インラインブロックに変更 */
-  display: inline-block;
+  /* ブロックボックス、インラインボックスに変更 */
+  display: block;
 
-  font-size: 18px;
+  font-size: 50px;
 
-  /* h1要素に枠線をつける （４辺を個別に指定することもできる）　ソリッド*/
+  /* h1要素に枠線をつける （４辺を個別に指定することもできる）*/
   border: 3px solid #ffffff;
-  /* ショートバンド：　「3px solid #ffffff」いくつかのCSSプロパティではこの書き方が出来る */
+  border-top: 4px dotted rgb(255, 255, 255);
+  border-left: 4px double rgb(255, 255, 255);
+  border-right:4px dashed rgb(255, 255, 255);
 
+  /*「:3px solid #ffffff」いくつかのCSSプロパティではこの書き方が出来る */
 
   /* 枠線の角をまるくする 　ラディウス*/
   border-radius: 20px;
+
+  /* 余白をつける（内側） 4辺を一度に指定できる 
+  　 １、上下　２、左右*/
+  padding: 10px 10px;
+
+  /* 余白をつける（外側） 4辺を一度に指定できる 
+  　 １、上下　２、左右*/
+  margin: 20px auto;
+
+  /* 中央寄せにする */
+  width: 300px;
+
+  /* テキストの中央寄せ*/
+  text-align: center;
+
+}
+
+p,ul {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+img {
+  margin-top: 30px;
+  border-radius: 50%;
+}
+
+a {
+  display: block;
+  background-color: chartreuse;
+  padding: 20px 0;
+}
+
+ul {
+  /* 中央寄せ */
+  width: 300px;
+  /* 余白をつける（外） */
+  margin: 0 auto;
+}
+
+li {
+  /* liタグのmargin（下）に余白を空ける */
+  margin-bottom: 20px;
 }
