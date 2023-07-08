@@ -59,8 +59,11 @@ img {
 
 a {
   display: block;
-  background-color: chartreuse;
+  background-color: rgb(218, 120, 120);
   padding: 20px 0;
+  border-radius: 10px;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 ul {
