@@ -1,0 +1,82 @@
+<!-- 1章演習問題 -->
+
+
+<!-- お決まりセットの意味 -->
+<!DOCTYPE html> <!-- HTMLであることを宣言する -->
+<html lang="ja"> <!-- HTMLであることを意味する。「属性lang」日本語、もしくは英語などの文書であることを意味する -->
+<head> <!-- コンピューター向けのさまざまな情報を記述する（画面には表示されない部分） -->
+    <meta charset="UTF-8"><!-- 文字コードを設定する（設定しないと文字化けなどする可能性があるため必ず設定する） -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>演習問題１</title><!-- ページのタイトル（タブの部分）を記述する -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> <!-- 画面に表示されるコンテンツを記述する -->
+
+    <!-- 見出し -->
+    <h1>見出しタグ（h6まである）</h1>
+
+    <!-- 段落 -->
+    <p>段落タグ(pタグ)<br>brタグで改行出来る</p>
+
+    <!-- 箇条書き「順列、順不同リスト」 -->
+    <ol>
+        <h3>順列リスト(olタグ)</h3>
+        <li>内容</li>
+        <li>内容</li>
+        <li value="2">olタグのみvalue属性が使える</li>
+    </ol>
+
+    <ul>
+        <h3>順不同リスト（ulタグ）</h3>
+        <li>内容</li>
+        <li>内容</li>
+    </ul>
+
+    <!-- 説明リスト -->
+
+    <dl>
+        <h3>説明リスト（dlタグ）</h3>
+        <dt>名前：</dt><dd>田中 太郎</dd>
+    </dl>
+
+    <!-- リンクを指定するタグ（新しいタブで開くようにする） -->
+
+    <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+
+    <!-- 属性と属性値（aタグを使用） -->
+
+    <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+
+    <!-- 画像を表示 -->
+
+    <img src="original.jpg" alt="ドラえもん">
+
+    <!-- 強調を表す -->
+
+    <p>emタグ<em><br>強調を表す</em></p>
+
+    <!-- 表を作る -->
+
+    <table>
+        <caption>タイトル</caption>
+
+        <thead>
+            <th>テーブルタグ見出し</th>
+        </thead>
+
+        <tbody>
+            <tr><td>内容</td><td>内容</td></tr>
+            <tr><td>内容</td><td>内容</td></tr>
+            <tr><td>内容</td><td>内容</td></tr>
+            <tr><td>内容</td><td>内容</td></tr>
+            <tr><td>内容</td><td>内容</td></tr>
+        </tbody>
+
+    </table>
+
+    <!-- 連絡先 -->
+
+    <address><br>123-456-7890</address>
+
+</body>
+</html>
