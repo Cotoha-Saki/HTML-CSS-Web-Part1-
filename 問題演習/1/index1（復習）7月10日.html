@@ -2,35 +2,75 @@
 
 
 <!-- お決まりセットの意味 -->
-<!DOCTYPE html> <!--  -->
-<html lang="ja"> <!--  -->
-<head> <!--  -->
-    <meta charset="UTF-8"><!--  -->
+<!DOCTYPE html> <!-- HTMLであることを宣言する -->
+<html lang="ja"> <!-- HTMLであることを意味する/日本語の文書であることを意味する -->
+<head> <!-- コンピューター向けのさまざまな情報を記述する -->
+    <meta charset="UTF-8"><!-- 文字コードを指定する -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>演習問題１</title><!--  -->
+    <title>演習問題１</title><!-- ページのタイトルを指定する（タブの部分） -->
     <link rel="stylesheet" href="style.css">
 </head>
-<body> <!--  -->
+<body> <!-- 画面に表示されるコンテンツを記述する -->
 
     <!-- 見出し -->
+    <h1>見出しタグ</h1>
 
     <!-- 段落 -->
+    <p>段落タグ</p>
 
     <!-- 箇条書き「順列、順不同リスト」 -->
+    <ol>
+        <li>順列リスト</li>
+        <li>順列リスト</li>
+        <li>順列リスト</li>
+        <li>順列リスト</li>
+        <li value="4">順列リスト(value属性使用)</li>
+    </ol>
+    <ul>
+        <li>順不同リスト</li>
+        <li>順不同リスト</li>
+        <li>順不同リスト</li>
+        <li>順不同リスト</li>
+    </ul>
 
     <!-- 説明リスト -->
+    <dl>
+        <dt>説明リスト</dt>
+        <dd>説明</dd>
+        <dt>説明リスト</dt>
+        <dd>説明</dd>
+    </dl>
 
     <!-- リンクを指定するタグ（新しいタブで開くようにする） -->
-
-    <!-- 属性と属性値（aタグを使用） -->
+    <a href="https://www.youtube.com/" target="_blank">つべ</a>
 
     <!-- 画像を表示 -->
+    <img src="original.jpg" alt="ドラえもん"> 
 
     <!-- 強調を表す -->
+    <em><br><br>強調を表す？</em>
 
     <!-- 表を作る -->
+    <table>
+        <caption><br>タイトル</caption>
+        <thead>
+            <tr><th>表組み</th><th>表組み</th><th>表組み</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>表組み</td><td>表組み</td><td>表組み</td></tr>
+            <tr><td>表組み</td><td>表組み</td><td>表組み</td></tr>
+            <tr><td>表組み</td><td>表組み</td><td>表組み</td></tr>
+            <tr><td>表組み</td><td>表組み</td><td>表組み</td></tr>
+            <tr><td>表組み</td><td>表組み</td><td>表組み</td></tr>
+            <tr><td>表組み</td><td>表組み</td><td>表組み</td></tr>
+        </tbody>
+    </table>
 
     <!-- 連絡先 -->
+    <address>
+        <br>012-345-6789 
+        <p>連絡先を表すタグ</p>
+    </address>
 
 </body>
 </html>
