@@ -1,0 +1,6 @@
+/* 文字コードの指定 */
+@charset "UTF-8";
+
+body {
+    background-color: pink;
+}
