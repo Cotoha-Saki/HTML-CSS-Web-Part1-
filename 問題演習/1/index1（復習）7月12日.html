@@ -2,33 +2,69 @@
 
 
 <!-- お決まりセットの意味 -->
-<!DOCTYPE html> <!--  -->
-<html lang="ja"> <!--  -->
-<head> <!--  -->
-    <meta charset="UTF-8"><!--  -->
+<!DOCTYPE html> <!-- HTMLだということを宣言する -->
+<html lang="ja"> <!-- HTMLであることを意味する / 日本語の文書だということを意味する -->
+<head> <!-- コンピューター向けの様々な情報を記述する -->
+    <meta charset="UTF-8"><!-- 文字コードを記述する（記述しないと文字化けしたりする可能性があるから必ず指定する） -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>演習問題１</title><!--  -->
+    <title>演習問題１</title><!-- ページタイトル（タブの部分） -->
     <link rel="stylesheet" href="style.css">
 </head>
-<body> <!--  -->
+<body> <!-- 画面に表示されるコンテンツを記述する -->
 
     <!-- 見出し -->
-
+    <h1>見出しタグ</h1>
     <!-- 段落 -->
-
+    <p>段落タグ</p>
     <!-- 箇条書き「順列、順不同リスト」 -->
+    <ol>
+        <li>順列リスト</li>
+        <li>順列リスト</li>
+        <li>順列リスト</li>
+        <li value="3">順列リスト(value属性)</li>
+    </ol>
 
+    <ul>
+        <li>順不同リスト</li>
+        <li>順不同リスト</li>
+        <li>順不同リスト</li>
+        <li>順不同リスト</li>
+    </ul>
     <!-- 説明リスト -->
+    <dl>
+        <dt>説明リスト：</dt><dd>田中一郎</dd><dd>田中二郎</dd><dd>田中三郎</dd>
+        <dt>説明リスト</dt><dd>田中一郎</dd>
+    </dl>
 
     <!-- リンクを指定するタグ（新しいタブで開くようにする） -->
 
+    <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+
     <!-- 画像を表示 -->
+    <img src="original.jpg" alt="ドラえもん">
 
     <!-- 強調を表す -->
+    <em>強調を表すタグ</em>
 
     <!-- 表を作る -->
+    <table>
+        <caption>タイトル</caption>
+        <thead>
+            <tr><th>見出し</th><th>見出し</th><th>見出し</th></tr>
+        </thead>
+
+        <tbody>
+            <tr><td>セル</td><td>セル</td><td>セル</td></tr>
+            <tr><td>セル</td><td>セル</td><td>セル</td></tr>
+            <tr><td>セル</td><td>セル</td><td>セル</td></tr>
+            <tr><td>セル</td><td>セル</td><td>セル</td></tr>
+            <tr><td>セル</td><td>セル</td><td>セル</td></tr>
+            <tr><td>セル</td><td>セル</td></tr>
+        </tbody>
+    </table>
 
     <!-- 連絡先 -->
+    <address>連絡先を表すタグ</address>
 
 </body>
 </html>
